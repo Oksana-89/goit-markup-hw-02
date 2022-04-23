@@ -1,0 +1,43 @@
+:root {
+    --logo-color: #2196F3;
+    --href-color: #212121;
+    --tel-color: #757575;
+    --main-title-color: #FFFFFF;
+      }
+
+    .logo {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        color: #2196F3;
+    }
+    
+    .accent {
+        color: #212121
+    }
+    body {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 60px;
+
+        a {
+           text-decoration: none;
+           color: itherit;
+
+       }
+        .logo {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 31px;
+            color: #2196F3;    
+       }
+       .accent {
+        color: #212121
+
+       }
