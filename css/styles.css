@@ -1,56 +1,149 @@
-.logo {font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 31px;
-color: #2196F3;  
-.accent {
-    color: #212121
-}
-
-.accent {
-    color: #212121
-
 :root {
     --logo-color: #2196F3;
-    --href-color: #212121;
-    --tel-color: #757575;
-    --main-title-color: #FFFFFF;
-      }
+    --title-button-color: #212121;
+    --paragraph-color: #757575;
+    --light-color: #FFFFFF;
+    --tel-color: rgba(255, 255, 255, 0.6);
+    --background-color: #E5E5E5;
+    --footer-background-color: #2F303A;
+    --button-background-color: #F5F4FA;
+    --background-subject--color: #2F303A;
+}
+/* Верх*/
+body {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px; 
+    color: var(--title-button-color);
+    background: var(--light-color)
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul,li {
+    list-style: none;
+}
+button {
+    cursor: pointer;
+     font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--title-button-color);
+    background: var(--button-background-color); 
+}
+button:hover,
+button:focus {
+    color: var(--light-color);
+    background: var(--logo-color)
+}
 
-    .logo {
-        font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 31px;
-        color: #2196F3;
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: var(--logo-color);
     }
-    
-    .accent {
-        color: #212121
-    }
-    body {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 900;
-        font-size: 44px;
-        line-height: 60px;
+.accent, title {
+    color: var(--title-button-color)}
+   
+.accent:hover {
+    color: var(--logo-color);
+}
+.accent:focus{
+    color: var(--logo-color)
+}
+/*Тіло*/
+/* Середина портфоліо*/
+.caption
+{font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+color: var(--title-button-color);}
 
-        a {
-           text-decoration: none;
-           color: itherit;
+.subtitle {
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+color: var(--paragraph-color);}
+/*Середина основної сторінки секція 1*/
+.subject {
+   font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+   color: var(--light-color);
+background: var(--background-subject--color)
+}
+/*Секція2*/
+.headline {
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+color: var(--title-button-color);
+}
+.text {
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: var(--paragraph-color);
+}
+/*Секція з*/
+.sec-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+color: var(--title-button-color);}
 
-       }
-        .logo {
-            font-family: 'Raleway';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 26px;
-            line-height: 31px;
-            color: #2196F3;    
-       }
-       .accent {
-        color: #212121
+/*Секція 4*/
+.heading {
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: var(--title-button-color);}
+.supheading {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--paragraph-color);
+}
 
-       }
+/*Футер*/
+footer {
+background: var(--background-subject--color)}
+a {
+    color: var(--light-color);
+}
+.logo-one {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: var(--logo-color);
+}
+.accent-one {
+    color: var(--light-color);
+}
+a:hover, 
+a:focus {
+    color: var(--logo-color)}
+
+address {
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: var(--light-color);
+}
+.aside {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--tel-color);
+}
+
+
+
