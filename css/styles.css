@@ -8,6 +8,7 @@
     --footer-background-color: #2F303A;
     --button-background-color: #F5F4FA;
     --background-subject--color: #2F303A;
+    --background-section-color: #F5F4FA;
 }
 /* Верх*/
 body {
@@ -38,12 +39,6 @@ button {
     letter-spacing: 0.06em;
     background: var(--button-background-color); 
 }
-button:hover,
-button:focus {
-    color: var(--light-color);
-    background: var(--logo-color)
-}
-
 .logo {
     font-family: 'Raleway';
     font-style: normal;
@@ -52,7 +47,27 @@ button:focus {
     line-height: 1.19;
     color: var(--logo-color);
     letter-spacing: 0.03em;
-    }
+}
+.button {
+    background: var(--logo-color);
+}
+
+button:hover,
+button:focus {
+    color: var(--light-color);
+    background: var(--logo-color);
+}
+
+
+.class {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--title-button-color);
+    letter-spacing: 0.03em;
+}
 .accent {
     font-family: 'Roboto';
     font-style: normal;
@@ -68,8 +83,26 @@ button:focus {
 .accent:focus{
     color: var(--logo-color)
 }
+.accent-on {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14px;
+    letter-spacing: 0.02em;
+    color: var(--paragraph-color);
+    }
+    .accent-on:hover {
+        color: var(--logo-color);
+    }
+    
+    .accent-on:focus {
+        color: var(--logo-color)
+    }
+
 /*Тіло*/
-/* Середина портфоліо*/
+/* Серед
+ина портфоліо*/
 .caption
 {font-weight: 700;
 font-size: 18px;
@@ -102,6 +135,13 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--title-button-color);
 }
+.text {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71px;
+letter-spacing: 0.03em;
+color: var(--paragraph-color);
+}
 
 /*Секція з*/
 .sec-title {
@@ -109,7 +149,8 @@ font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
 letter-spacing: 0.03em;
-color: var(--title-button-color);}
+color: var(--title-button-color);
+background: var(--background-section-color)}
 
 /*Секція 4*/
 .heading {
@@ -117,14 +158,18 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
 letter-spacing: 0.03em;
-color: var(--title-button-color);}
+color: var(--title-button-color);
+background: var(--light-color);
+}
+
 .supheading {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--paragraph-color);
-}
+    background: var(--light-color)
+    }
 
 /*Футер*/
 footer {
@@ -146,17 +191,13 @@ a {
     color: var(--light-color);
 
 }
-a:hover, 
-a:focus {
-    color: var(--logo-color)}
-
 address {
     cursor:none;
      font-style: normal;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-color: #FFFFFF;
+color: var(--light-color);
 }
 .accent-one {
     font-style: normal;
@@ -164,6 +205,10 @@ color: #FFFFFF;
     line-height: 1.71;  
     letter-spacing: 0.03em;
     color: var(--tel-color)
+}
+.spanfooter {
+    color: var(--light-color);
+
 }
 
 
