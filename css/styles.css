@@ -15,9 +15,10 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px; 
+    line-height: 1.14; 
     color: var(--title-button-color);
-    background: var(--light-color)
+    background: var(--light-color);
+    letter-spacing: 0.02em;
 }
 a {
     text-decoration: none;
@@ -27,11 +28,14 @@ ul,li {
     list-style: none;
 }
 button {
+    font-family: 'Roboto';
+    font-style: normal;
     cursor: pointer;
      font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.88;
     color: var(--title-button-color);
+    letter-spacing: 0.06em;
     background: var(--button-background-color); 
 }
 button:hover,
@@ -45,10 +49,17 @@ button:focus {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     color: var(--logo-color);
+    letter-spacing: 0.03em;
     }
-.accent, title {
+.accent {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
     color: var(--title-button-color)}
    
 .accent:hover {
@@ -62,52 +73,56 @@ button:focus {
 .caption
 {font-weight: 700;
 font-size: 18px;
-line-height: 36px;
+line-height: 2;
+letter-spacing: 0.03em;
 color: var(--title-button-color);}
 
 .subtitle {
 font-weight: 400;
 font-size: 16px;
-line-height: 30px;
+line-height: 1.88;
+letter-spacing: 0.03em;
 color: var(--paragraph-color);}
 /*Середина основної сторінки секція 1*/
 .subject {
    font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
    color: var(--light-color);
+text-transform: uppercase;
 background: var(--background-subject--color)
 }
 /*Секція2*/
 .headline {
 font-weight: 700;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
 color: var(--title-button-color);
 }
-.text {
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-color: var(--paragraph-color);
-}
+
 /*Секція з*/
 .sec-title {
 font-weight: 700;
 font-size: 36px;
-line-height: 42px;
+line-height: 1.16;
+letter-spacing: 0.03em;
 color: var(--title-button-color);}
 
 /*Секція 4*/
 .heading {
 font-weight: 500;
 font-size: 16px;
-line-height: 19px;
+line-height: 1.19;
+letter-spacing: 0.03em;
 color: var(--title-button-color);}
 .supheading {
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
     color: var(--paragraph-color);
 }
 
@@ -122,28 +137,37 @@ a {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
     color: var(--logo-color);
+
 }
 .accent-one {
     color: var(--light-color);
+
 }
 a:hover, 
 a:focus {
     color: var(--logo-color)}
 
 address {
-font-weight: 400;
+    cursor:none;
+     font-style: normal;
 font-size: 14px;
-line-height: 24px;
-color: var(--light-color);
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #FFFFFF;
 }
-.aside {
-    font-weight: 400;
+.accent-one {
+    font-style: normal;
     font-size: 14px;
-    line-height: 24px;
-    color: var(--tel-color);
+    line-height: 1.71;  
+    letter-spacing: 0.03em;
+    color: var(--tel-color)
 }
+
+
+
 
 
 
